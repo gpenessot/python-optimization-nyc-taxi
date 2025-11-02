@@ -1,0 +1,36 @@
+[project]
+name = "python-optimization-nyc-taxi"
+version = "1.0.0"
+description = "Techniques d'optimisation Python - NYC Taxi Dataset"
+authors = [
+    {name = "Gaël Penessot", email = "contact@gaelpenessot.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "pandas>=2.0.0",
+    "polars>=0.20.0",
+    "numpy>=1.24.0",
+    "duckdb>=0.10.0",
+    "py-spy>=0.3.14",
+    "loguru>=0.7.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+viz = [
+    "matplotlib>=3.7.0",
+    "plotly>=5.14.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]

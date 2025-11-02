@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Data files
+*.csv
+*.parquet
+*.db
+*.sqlite
+data/*
+!data/.gitkeep
+sample_data/
+
+# Results
+results/*.svg
+results/*.html
+results/*.json
+*.svg
+*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Profiling
+profile.svg
+*.prof

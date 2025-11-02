@@ -1,0 +1,18 @@
+# Data manipulation
+pandas>=2.0.0
+polars>=0.20.0
+numpy>=1.24.0
+
+# Analytics
+duckdb>=0.10.0
+
+# Profiling
+py-spy>=0.3.14
+
+# Utilities
+loguru>=0.7.0
+tqdm>=4.65.0
+
+# Optional: for visualization
+matplotlib>=3.7.0
+plotly>=5.14.0
