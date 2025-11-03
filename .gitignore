@@ -41,3 +41,17 @@ Thumbs.db
 # Profiling
 profile.svg
 *.prof
+
+# Misc
+docs/newsletter.md
+data/yellow_taxi.parquet
+.qodo
+.claude
+
+# Internal scripts (not for public repo)
+run_pyspy.bat
+verify_results.py
+analyze_profile.py
+verify_newsletter_claims.py
+CORRECTIONS_NEWSLETTER.md
+PROFILING_GUIDE.md
